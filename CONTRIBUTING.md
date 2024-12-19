@@ -88,19 +88,3 @@ const fetchUserById = createAsyncThunk (
   }
 );
 ```
-
-## Translations (POEditor)
-
-New translations should be added manually to `public/locales/en/translation.json` first. After your PR is merged an admin will add the new translations in [POEditor](https://poeditor.com/). Everything in `public/locales` will eventually be overwritten by POEditor. If you want to help with translating please let us know.
-
-## Pull Requests (PRs)
-
-It’s a good idea to make PRs early on. A PR represents the start of a discussion, and doesn’t necessarily need to be the final, completed submission. Create a [draft PR](https://github.blog/2019-02-14-introducing-draft-pull-requests/) if you're looking for feedback but not ready for a final review. If the PR is in response to a GitHub issue, make sure to notate the issue as well.
-
-Usually your PR is connected to a ticket number, so please put the ticket number (for example 101) in the description of your PR like so:
-
-`Fixes #101`
-
-GitHub’s documentation for working on PRs is available [here](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
-
-Once your PR is ready, ensure all checks are passing and request a review.
